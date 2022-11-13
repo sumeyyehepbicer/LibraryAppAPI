@@ -15,7 +15,7 @@ namespace LibraryApp.Presentation.Common
             {
                 context.Users.AddRange(new List<User>()
                 {
-                    new User{ Id = 1,FirstName="Sümeyye",LastName="Hepbiçer",Username="sumeyyehepbicer",EmailAddress="hepbicersumeyye@gmail.com",Password="111111",PhoneNumber=5367098916,DateCreated=DateTime.Now,CreatedBy="System",LastModifiedDate=DateTime.Now,LastModifiedBy="System",IsDeleted=false},
+                    new User{ Id = 1,FirstName="Test",LastName="Test",Username="test",EmailAddress="test@gmail.com",Password="111111",PhoneNumber=5333333333,DateCreated=DateTime.Now,CreatedBy="System",LastModifiedDate=DateTime.Now,LastModifiedBy="System",IsDeleted=false},
                     new User{ Id = 2,FirstName="user",LastName="user",Username="user",EmailAddress="user@gmail.com",Password="111111",PhoneNumber=5555555555,DateCreated=DateTime.Now,CreatedBy="System",LastModifiedDate=DateTime.Now,LastModifiedBy="System",IsDeleted=false}
                 });
             }
